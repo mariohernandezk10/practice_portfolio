@@ -20,6 +20,11 @@ $(document).ready(function () {
             scrollTop: 0
         }, 2000);
     });
+
+    AOS.init({
+        easing: 'ease',
+        duration: 1800
+    });
 })
 
 // const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
