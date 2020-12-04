@@ -618,7 +618,7 @@ input[type="submit"]:hover{
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     body {
         background: linear-gradient(90deg, black, darkred);
         background-size: cover;
