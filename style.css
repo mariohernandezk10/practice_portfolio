@@ -35,7 +35,7 @@ p {
 
 img {
     width: 100%;
-    border-radius: 50%;
+    border: solid 3px #ffe838;
     user-select: none;
 }
 
@@ -240,10 +240,10 @@ li {
     font-weight: 300;
 }
 
-/* .profile-img {
+.profile-img {
     flex: 1;
-    margin-right: 5rem;
-} */
+    margin-right: 50rem;
+}
 
 .about-details {
     flex: 1;
@@ -270,6 +270,8 @@ li {
     color: #F4CBB2;
 }
 
+/* Start services */
+
 .my-skills {
     margin-top: 10rem;
     display: grid;
@@ -292,6 +294,9 @@ li {
     margin: 2rem -2px 2rem 0;
 }
 
+
+/* Starts 3 little squares */
+
 .icon-container {
     width: 10rem;
     height: 10rem;
@@ -302,13 +307,14 @@ li {
     transform: rotate(45deg);
 }
 
-
 .icon-container i{
     color: #ffe838;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
 }
+
+/* End 3 little squares */
 
 .portfolio-item {
     display: flex;
@@ -462,7 +468,7 @@ input[type="submit"]:hover{
     position: relative;
 }
 
-.up{
+/* .up{
     position: absolute;
     width: 5rem;
     height: 5rem;
@@ -479,13 +485,13 @@ input[type="submit"]:hover{
     color: #16162d;
     font-size: 2rem;
     margin: auto;
-}
+} */
 
 .copyright p {
     font-size: 1.4rem;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     0%{
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
     }
@@ -494,7 +500,7 @@ input[type="submit"]:hover{
     }
     100%{
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
