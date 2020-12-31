@@ -1,6 +1,14 @@
+
+// when the html is done loading, the js will run this anonymous function 
+
 $(document).ready(function () {
+// In this function we are using an event listener using jquery to listen for 
+// a click on the hamburger menu, we do this by grabbing the tag by its class
     $('.menu-toggler').on('click', function () {
+        // here we are hiding and showing the class "open" via the method toggleClass
+        // Info about toggleClass https://api.jquery.com/toggleclass/
         $(this).toggleClass('open');
+        
         $(".top-nav").toggleClass('open');
     });
 
@@ -27,5 +35,16 @@ $(document).ready(function () {
         once: true
     });
 
-})
+});
 
+function myFunc(name, age, dob) {
+    console.log(name);
+    console.log(age);
+    console.log(dob);
+    console.log(arguments);
+}
+myFunc("mario", 28, {
+    city: "Riverside",
+    cityNow: "Austin",
+    year: "12/16/1992"
+});
