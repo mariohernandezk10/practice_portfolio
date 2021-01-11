@@ -37,14 +37,3 @@ $(document).ready(function () {
 
 });
 
-function myFunc(name, age, dob) {
-    console.log(name);
-    console.log(age);
-    console.log(dob);
-    console.log(arguments);
-}
-myFunc("mario", 28, {
-    city: "Riverside",
-    cityNow: "Austin",
-    year: "12/16/1992"
-});
