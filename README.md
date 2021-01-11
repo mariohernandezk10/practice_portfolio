@@ -1,4 +1,4 @@
-# Cool Project
+# Portfolio
 ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
 ## Description
@@ -33,5 +33,5 @@ Me
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at calvincarter@yahoo.com. You can find more of my work at [calvincarter](https://github.com/calvincarter/).
+If you have any questions about the repo, open an issue or contact me directly at mariohernandezk10@gmail.com. You can find more of my work at [MARIO HERNANDEZ](https://github.com/mariohernandezk10).
 
