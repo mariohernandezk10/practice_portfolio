@@ -1,6 +1,3 @@
-
-// when the html is done loading, the js will run this anonymous function 
-
 $(document).ready(function () {
 // In this function we are using an event listener using jquery to listen for 
 // a click on the hamburger menu, we do this by grabbing the tag by its class
@@ -17,17 +14,17 @@ $(document).ready(function () {
         $(".top-nav").removeClass('open');
     });
 
-    // $('nav a[href*="#"]').on('click', function () {
-    //     $('html, body').animate({
-    //         scrollTop: $($(this).attr('href')).offset().top - 100
-    //     }, 2000);
-    // });
+    $('nav a[href*="#"]').on('click', function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 2000);
+    });
 
-    // $('#up').on('click', function () {
-    //     $('html, body').animate({
-    //         scrollTop: 0
-    //     }, 2000);
-    // });
+    $('#up').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000);
+    });
 
     AOS.init({
         easing: 'ease',
