@@ -8,6 +8,8 @@ Languages used: HTML, CSS, jQuery, and Javascript so far... but I will keep addi
 
 Deploy Website: https://mariohernandezk10.github.io/practice_portfolio/
 
+Screenshot:
+![alt text](images/portfolio.png)
 
 ## Table of Contents 
 
